@@ -11,3 +11,5 @@ def predict():
 
 if __name__ == '__main__':
     app.run()
+import joblib
+model = joblib.load('fraud_model.pkl')  # Add this line
